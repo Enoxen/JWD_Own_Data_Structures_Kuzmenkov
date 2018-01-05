@@ -5,7 +5,8 @@ package by.tc.own_data_structures.collection;
  */
 public interface Collection<T> extends Iterable<T> {
     boolean add(T t);
-    void remove(Object o);
+    boolean remove(T o);
+    T remove(int index);
     int size();
     boolean isEmpty();
     boolean contains(T t);

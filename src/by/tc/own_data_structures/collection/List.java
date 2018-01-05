@@ -6,4 +6,6 @@ package by.tc.own_data_structures.collection;
 public interface List<T> extends Collection<T> {
     void add(int index, T element);
     T get(int index);
+    boolean set(int index, T t);
+    int indexOf(T t);
 }
